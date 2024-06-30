@@ -15,7 +15,7 @@ export default function Time() {
   }, []);
 
   return (
-    <div className="bg-black flex flex-col justify-center items-center h-screen text-white text-5xl">
+    <div className="bg-transparent flex flex-col justify-center items-center h-screen text-white text-6xl">
       <h2>{currentTime}</h2>
     </div>
   );
