@@ -1,3 +1,18 @@
+/* styles/globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.stroke-text {
+  @apply text-white font-poppins; /* Fill color and font */
+  -webkit-text-stroke: 2px black; /* Stroke color and width */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
